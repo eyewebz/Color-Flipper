@@ -30,13 +30,13 @@ button{
   font-size: 20px;
   box-shadow: 2px 1px 15px 3px rgb(177, 175, 175);
 }
-.green{
-  color: lightgreen;
-  background-color: darkgreen;
+.pink{
+  color: rgb(255, 196, 245);
+  background-color: rgb(255, 0, 221);
 }
-.green:hover{
-  color: darkgreen;
-  background-color:  lightgreen;
+.pink:hover{
+  color: rgb(255, 0, 221);
+  background-color: rgb(255, 196, 245);
   transition: all .5s;
 }
 .red{
@@ -57,23 +57,23 @@ button{
   color: blue;
   transition: all .5s;
 }
-.orange{
-  color: rgb(255, 196, 85);
-  background-color: orangered;
+.purple{
+  color: rgb(174, 0, 255);
+  background-color: rgb(76, 0, 255);
 }
-.orange:hover{
-  background-color: orange;
-  color: orangered;
+.purple:hover{
+  background-color: rgb(174, 0, 255);
+  color: rgb(76, 0, 255);
   transition: all .5s;
 }
 .random{
-  background-image: linear-gradient(to right, rgb(173, 29, 240), rgb(203, 67, 230), rgb(254, 150, 168));
+  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(250, 142, 0) rgb(236, 253, 0), rgb(1, 255, 22), rgb(0, 81, 255), rgb(204, 0, 255));
 }
 </style>
 <h2>Color Flipper</h2>
 <ul>
   <li>
-    <button class="green" onclick="setColor('green')">Green</button>
+    <button class="pink" onclick="setColor('pink')">Green</button>
   </li>
   <li>
     <button class="red" onclick="setColor('red')">Red</button>
@@ -82,7 +82,7 @@ button{
     <button class="blue" onclick="setColor('blue')">Blue</button>
   </li>
   <li>
-    <button class="orange" onclick="setColor('orange')">Orange</button>
+    <button class="purple" onclick="setColor('purple')">Orange</button>
   </li>
   <li>
     <button class="random" onclick="randomColor()">Random</button>
